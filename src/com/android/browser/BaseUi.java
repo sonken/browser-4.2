@@ -144,6 +144,9 @@ public abstract class BaseUi implements UI {
         mTitleBar.setProgress(100);
         mNavigationBar = mTitleBar.getNavigationBar();
         mUrlBarAutoShowManager = new UrlBarAutoShowManager(this);
+        
+        
+        Log.i("BaseUI","hi ! this is sonken!");
     }
 
     private void cancelStopToast() {
